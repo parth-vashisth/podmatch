@@ -1,0 +1,93 @@
+@import url('https://fonts.cdnfonts.com/css/graphik-trial');
+
+* {
+    text-decoration: none !important;
+    box-sizing: border-box;
+    list-style-type: none !important;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-24: 24px;
+    --fs-40: 40px;
+    --fs-44: 44px;
+    --fs-91: 91px;
+    /* color */
+    --clr-white: #FFFFFF;
+    --clr-black: #000000;
+    --clr-vectorbg: #DEDDED;
+    --clr-border: #DFDFF0;
+    --clr-darkgrey: #4D4D4D;
+    --clr-footer: #EBECEF;
+    --clr-purple: #6F69F2;
+    --clr-btn-gradient: linear-gradient(102.79deg, #00C2CB 2.64%, #01BAFF 98.35%);
+    --clr-txt-gradient: linear-gradient(101.64deg, #00B9FF 7.34%, #6F69F2 44.47%, #10B6D0 73.06%);
+    --clr-num-gradient: linear-gradient(180deg, #6F69F2 0%, rgba(64, 61, 140, 0) 100%);
+    --clr-podcast: linear-gradient(99.76deg, #00B9FF 34.35%, #6F69F2 64.82%, #10B6D0 88.28%);
+
+}
+
+.font-graphik {
+    font-family: 'Graphik Trial', sans-serif !important;
+}
+
+/* section-1 */
+.ft-btn {
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--clr-darkgrey);
+}
+
+.log {
+    font-size: var(--fs-16);
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: var(--clr-black);
+}
+
+.sign {
+    font-size: var(--fs-16);
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: var(--clr-white);
+    background: var(--clr-purple);
+    border: none;
+    padding: 10px 28px 10px 28px;
+    border-radius: 57px;
+}
+
+.border-bottom {
+    border-bottom: 2px solid var(--clr-border) !important;
+}
+
+.main-head {
+    font-size: var(--fs-44);
+    font-weight: 600;
+    line-height: 56.32px;
+    text-align: center;
+    color: var(--clr-black);
+    max-width: 665px;
+}
+
+.color {
+    background: var(--clr-podcast);
+    font-weight: 900;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.main-para {
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: var(--clr-darkgrey);
+    width: 593px;
+}
