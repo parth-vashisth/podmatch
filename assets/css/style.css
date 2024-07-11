@@ -131,7 +131,16 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-.p-70{
+
+.p-70 {
     padding-top: 70px;
     padding-bottom: 70px;
+}
+
+.right-0 {
+    right: 0%;
+}
+
+.top-70 {
+    top: -70%;
 }
