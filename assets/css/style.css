@@ -191,6 +191,10 @@
     color: var(--clr-white);
 }
 
+.bottom-25 {
+    bottom: -25%;
+}
+
 .bgclr {
     background: linear-gradient(to bottom, white 50%, #EBECEF 50%);
 }
