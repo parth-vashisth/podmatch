@@ -1,4 +1,7 @@
-@import url('https://fonts.cdnfonts.com/css/graphik-trial');
+@font-face {
+    font-family: graphik;
+    src: url(../font/Graphik-Font-Family/GraphikRegular.otf);
+}
 
 * {
     text-decoration: none !important;
@@ -7,6 +10,7 @@
     padding: 0;
     margin: 0;
 }
+
 
 :root {
     --fs-14: 14px;
@@ -32,7 +36,7 @@
 }
 
 .font-graphik {
-    font-family: 'Graphik Trial', sans-serif !important;
+    font-family: graphik !important;
 }
 
 /* section-1 */
